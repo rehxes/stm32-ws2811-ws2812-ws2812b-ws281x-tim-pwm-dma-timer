@@ -67,7 +67,7 @@ List of some useful STM32 DMA application notes
 
 Memory requirement for one LED strip is split to:
 
-- `3 * leds_count` to store *read, green & blue* colors for each led
+- `3 * leds_count` to store *red, green & blue* colors for each led
 - `1` working buffer with size of `2` leds (`48` elements), each element of `16/32` bits, depending on used TIM peripheral
 
 ## Putting it all together
